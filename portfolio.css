@@ -42,6 +42,7 @@
      background: white;
      border-radius: 20px;
      margin: 40px;
+     margin-top: 100px;
  }
 
  .hero-text {
@@ -69,8 +70,8 @@
  }
 
  .buttons button {
-    width: 30%;
-    height: 70px;
+     width: 30%;
+     height: 70px;
      padding: 12px 20px;
      border: none;
      border-radius: 20px;
@@ -86,8 +87,9 @@
  }
 
  .secondary {
-     background:white;
-     border: white;
+     background: white;
+     border: 2px solid #4a7cff;
+     color: #4a7cff;
      text-decoration: none;
  }
 
@@ -129,15 +131,18 @@
  .z {
      display: flex;
      gap: 3%;
-     margin: 40px auto;
      padding-left: 60px;
      padding-right: 60px;
+     max-width: 900px;
+     margin: 0 auto;
+     margin: 40px auto;
 
  }
 
  .r {
      width: 70%;
-     height: 150px;
+     min-height: 150px;
+     padding: 20px;
      border: white;
      border-radius: 10px;
      background-color: white;
@@ -166,12 +171,12 @@
      justify-content: space-around;
      margin-top: 60px;
      margin-bottom: 20px;
-    
+
  }
 
  .p {
      width: 30%;
-     height: 250px;
+     min-height: 250px;
      border-radius: 20px;
      background-color: white;
      border: white;
@@ -216,7 +221,8 @@
 
  .J {
      width: 90%;
-     height: 250px;
+     min-height: 250px;
+     padding: 30px;
      border: white;
      border-radius: 20px;
      background-color: white;
@@ -265,7 +271,7 @@
      border-radius: 20px 20px 0px 0px;
      max-width: 100%;
 
-    
+
 
  }
 
@@ -301,3 +307,45 @@
      color: blue;
      border: white;
  }
+
+ 
+ @media (max-width: 768px) {
+  header { padding: 14px 20px; }
+  nav a { margin-left: 12px; font-size: 13px; }
+
+  .hero {
+    flex-direction: column;
+    padding: 30px 20px;
+    margin: 80px 16px 20px;
+  }
+
+  .hero-text { max-width: 100%; }
+  .hero-img img { width: 100%; height: 200px; }
+
+  .z {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .r { width: 100%; }
+
+  .d {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .p { width: 90%; }
+
+  .H {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .e { width: 90%; }
+
+  .Xr, .Y, .B { width: 50%; }
+
+  .buttons button { width: 45%; height: auto; }
+}
