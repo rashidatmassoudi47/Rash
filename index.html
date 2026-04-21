@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="samsung.css">
+    <link rel="stylesheet" href="tablette.css">
 </head>
 
 <body>
     <header>
         <div class="logo">RM</div>
         <nav>
-            <a href="#">Accueil</a>
-            <a href="#">À propos</a>
-            <a href="#">Projets</a>
-            <a href="#">Profil</a>
-            <a href="#">Contact</a>
+            <a href="#Accueil">Accueil</a>
+            <a href="#A propos">À propos</a>
+            <a href="#Mes projets">Projets</a>
+            <a href="#profil">Profil</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="hero">
+    <section class="hero" id="Accueil">
         <div class="hero-text">
             <div class="badge"> Portfolio moderne & évolutif</div>
             <h1>Construire mon parcours avec passion, créativité et ambition</h1>
@@ -28,8 +30,8 @@
                 l’apprentissage et la création d’interfaces modernes.
             </p>
             <div class="buttons">
-                <button class="primary">Voir mes projets</button>
-                <button class="secondary">Me contacter</button>
+                <button class="primary"> <a href="#Mes projets" class="primary">Voir mes projets</a></button>
+                <button class="secondary"> <a href="#contact" class="secondary">Me contacter</a></button>
             </div>
             <div class="stats">
                 <div class="card">
@@ -51,7 +53,137 @@
         </div>
     </section>
 
+    <div class="Xr" id="A propos">
+        <h2>À propos de moi </h2>
+    </div>
+    <div class="Z">
+        <div class="z">
+            <div class="r">
+                <h3>Mon parcours</h3>
+                <p>Je suis une étudiante curieuse et motivée, avec un fort intérêt pour les outils <br>
+                    numériques, le web, et la communication visuelle. J'aime apprendre en <br>
+                    pratiquant, construire des petits projets concrets et améliorer progressivement <br>
+                    mes compétences. </p>
 
+            </div>
+            <div class="r">
+                <h3>Mes objectifs</h3>
+                <P>Mon objectif est de développer un profil solide capable de relier <br>
+                    connaissances académiques, créativité personnelle et compétences <br>
+                    techniques. Je souhaite bâtir un portfolio clair, sérieux et évolutif. </P>
+
+            </div>
+        </div>
+        <div class="z">
+            <div class="r">
+                <h3>Mes qualités</h3>
+                <P>Je suis organisée,persévérante, attentive aux détails et toujours prête à <br>
+                    apprendre. J'aimme les interfaces biens structurées, les contenues fiables et les <br>
+                    réalisations simples mais soignées.</P>
+
+            </div>
+            <div class="r">
+                <h3>Ce que je recherche</h3>
+                <p>Je cherche des opportunitées d'apprentissage, de collaborations <br>
+                    académiques, et des expériences qui me permettront de progresser dans le <br>
+                    développement web,le design et la valorisation des projets personnels.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="Y" id="Mes projets">
+        <h2>Mes projets</h2>
+    </div>
+    <div class="D">
+        <div class="d">
+            <div class="p">
+                <img src="one.jpeg" alt="">
+                <h3>Mini site vitrine</h3>
+                <p>Réalisation d'un site simple, responsive et élégant <br>
+                    pour présenter une activité, un service ou une <br>
+                    identité personnelle.</p>
+            </div>
+            <div class="p">
+                <img src="five.jpeg" alt="">
+                <h3>Interface web</h3>
+                <p>Conception d'une interface claire avec sections bien <br>
+                    organisées avec navigation intutive et design moderne</p>
+
+            </div>
+            <div class="p">
+                <img src="six.jpeg" alt="">
+                <h3>Projet JavaScript</h3>
+                <p>Mise en pratique de la logique interactive, de la <br>
+                    manipulation du DOM et de fonctionnalités <br>
+                    dynamiques utiles</p>
+            </div>
+        </div>
+        <div class="d">
+            <div class="p">
+                <img src="Four.jpeg" alt="">
+                <h3>Travail en groupe</h3>
+                <p>Participation à des exercices collaboratifs pour <br>
+                    améliorer l'organisation, la communication et le rendu <br>
+                    final</p>
+            </div>
+            <div class="p">
+                <img src="two.jpeg" alt="">
+                <h3>Présentation académique</h3>
+                <p>Création de supports visuels structurés pour exposer <br>
+                    un sujet de façon claire, cohérente et professionel.</p>
+            </div>
+            <div class="p">
+                <img src="three.jpeg" alt="">
+                <h3>Apprentissage continu</h3>
+                <p>Exploration régulière de nouvelles méthodes,outils <br>
+                    et bonnes pratiques pour améliorer mes réalisations</p>
+            </div>
+        </div>
+    </div>
+    <div class="B" id="profil">
+        <h2 >Mon profil</h2>
+    </div>
+    <div class="H">
+        <div class="e">
+            <h1>2026</h1>
+            <P>Année de progression et de <br> consolidation</P>
+        </div>
+        <div class="e">
+            <h1>5+</h1>
+            <p>Projets d'appentissages réalisés</p>
+        </div>
+        <div class="e">
+            <h1>100%</h1>
+            <p>Motivation pour apprendre et évoluer</p>
+        </div>
+        <div class="e">
+            <h1>UI</h1>
+            <p>Intérêt pour le web et le design visuel</p>
+        </div>
+    </div>
+    <div class="J" id="contact">
+        <h2>Contact</h2>
+        <p>Je suis ouvertes aux échanges, aux opportunités d'apprentissages
+            et aux projets académiques ou <br> personnels. N'hésitez pas à me
+            contacter pour discuter, collaborer ou simplement découvrir mon univers.
+        </p>
+        <div>
+            <button id="gauche">Envoyer un email</button>
+            <button id="droite">Télécharger mon CV</button>
+        </div>
+
+
+    </div>
+    <div class="V">
+        <div class="w"></div>
+        <div class="w"></div>
+        <div class="w"></div>
+        <div class="w"></div>
+    </div>
+
+    <div class="U">
+        <p>©Rashidat Massoudi-Portfolio étudiant/ personnel </p>
+    </div>
 </body>
 
 </html>
