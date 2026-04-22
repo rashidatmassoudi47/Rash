@@ -341,10 +341,11 @@
     flex-direction: column;
     align-items: center;
     padding: 0 20px;
-    gap: 2%;
+   
   }
 
-  .e { width: 90%; }
+  .e { width: 90%;
+}
 
   .Xr, .Y, .B { width: 50%; }
 
