@@ -309,7 +309,7 @@
  }
 
  
- @media (max-width: 790px) {
+ @media (max-width: 768px) {
   header { padding: 14px 20px; }
   nav a { margin-left: 12px; font-size: 13px; }
 
